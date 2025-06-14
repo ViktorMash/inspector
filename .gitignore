@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
+logs/
+*.log
+
+# Environments
+venv/
+.env
+
+# Other
+data/
+service_acc/
+temp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
