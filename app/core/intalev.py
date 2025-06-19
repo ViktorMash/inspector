@@ -52,8 +52,8 @@ class IntalevHandler:
             else:  # прочие ошибки
                 self.tg.report_error(error="Intalev", response=check_report_response)
 
-        msg = header + msg
-        self.tg.report_managers(msg)
+            msg = header + msg
+            self.tg.report_managers(msg)
 
     def _get_report_data(self) -> HTTPResponseSchema:
         """ Сбор данных по генерации Инталев """

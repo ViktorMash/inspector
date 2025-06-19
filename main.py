@@ -3,7 +3,7 @@ import schedule
 
 from app.core import intalev_handler, period
 
-
+intalev_handler.check()
 schedule.every().day.at(period.launch_time(14, 00)).do(intalev_handler.check)  # 14:00 msk
 
 
